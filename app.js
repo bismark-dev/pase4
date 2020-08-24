@@ -15,6 +15,8 @@ app.use(express.json());
 app.get('api/v1', function(req, res) {
     res.status(200).json();
 });
+return;
+
 
 app.listen(PORT, function() {
     console.log(`server is running on port ${PORT} .....`);
